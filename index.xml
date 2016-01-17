@@ -13,15 +13,11 @@
         
           <item>
             <title>祖父とのメール</title>
-            <link>http://portfolio.rmn-web.net/post/mail2002/</link>
+            <link>http://portfolio.rmn-web.net/post/mail200/</link>
             <pubDate>Tue, 01 Jan 2002 00:00:00 +0900</pubDate>
             
-            <guid>http://portfolio.rmn-web.net/post/mail2002/</guid>
-            <description>
-
-&lt;h2 id=&#34;祖父とのメール:b45937eca9fdf4e1b013641837cff685&#34;&gt;祖父とのメール&lt;/h2&gt;
-
-&lt;p&gt;後に、私と祖父の間で直接メールをやりとりするようになった。この頃、画像やWord文書をメールに添付して送信するようになった。&lt;/p&gt;
+            <guid>http://portfolio.rmn-web.net/post/mail200/</guid>
+            <description>&lt;p&gt;後に、私と祖父の間で直接メールをやりとりするようになった。この頃、画像やWord文書をメールに添付して送信するようになった。&lt;/p&gt;
 
 &lt;p&gt;さらにしばらくすると、メール本文の文字(列)の色や大きさを変えるなどの装飾をするようになった。いわゆるHTMLメールである。Web上のサンプルを拾ってきて、 JavaScriptを用いて時刻を表示するものもあった。そういう意味では、「生まれて初めて触ったプログラミング言語はJavaScript」と言えるかもしれない。&lt;/p&gt;
 
@@ -39,11 +35,7 @@
             <pubDate>Mon, 10 Sep 2001 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/first-pc/</guid>
-            <description>
-
-&lt;h2 id=&#34;自宅にpcが来た:c2418f0ab36120156ce377b253b60b7a&#34;&gt;自宅にPCが来た!&lt;/h2&gt;
-
-&lt;p&gt;2001年9月(当時小学3年生)、当時川崎市内にあった自宅にPCが来る。これは父が購入したもので、主に父が仕事で用いるものであった。これと同じ頃、当時京都にいた祖父もPCを購入しており、父と祖父の間でメールをやりとりするようになった。&lt;/p&gt;
+            <description>&lt;p&gt;2001年9月(当時小学3年生)、当時川崎市内にあった自宅にPCが来る。これは父が購入したもので、主に父が仕事で用いるものであった。これと同じ頃、当時京都にいた祖父もPCを購入しており、父と祖父の間でメールをやりとりするようになった。&lt;/p&gt;
 
 &lt;p&gt;そのメールのやりとりの中で、父が書いた文章の後におまけ程度にメッセージを残した。これが私のPCとの長い付き合いの最初である。&lt;/p&gt;
 </description>
