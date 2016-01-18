@@ -6,8 +6,47 @@
     <description>Recent content in Posts on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 01 Oct 2004 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Mar 2006 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>CGIゲーム「TOWN」の設置</title>
+            <link>http://portfolio.rmn-web.net/post/1st-town/</link>
+            <pubDate>Tue, 28 Mar 2006 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/1st-town/</guid>
+            <description>&lt;p&gt;2006年（当時中2）、&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏から「TOWN」というゲームシステムが設置されているWebサイトをいくつか知る。
+「TOWN」は、仮想的な街で暮らす系のゲーム兼SNSである。Perlが動作するWebサーバを用意できれば、個人でも簡単に設置できるという特徴がある。
+当時の私は、このプログラムをレンタルサーバ上のスペースに設置し、TOWNの管理を始めた。
+ 後に改造を施すが、当時の技術不足により復旧不可能な障害が発生し、初代のTOWNは閉鎖となってしまう。後に、他にも何作品かのTOWNを作成するが、利用者はそこまで集まらなかった。&lt;/p&gt;
+
+&lt;p&gt;一方その頃、ヒラリラーが設置したTOWNは大成功し、彼が作成したWWAと共に彼のサイトは大繁盛となる。&lt;/p&gt;
+
+&lt;p&gt;この「TOWN」の設置が、最初のWebアプリケーションの設置である。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>最初のWWAゲーム</title>
+            <link>http://portfolio.rmn-web.net/post/1st-wwa/</link>
+            <pubDate>Sat, 09 Jul 2005 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/1st-wwa/</guid>
+            <description>&lt;p&gt;2005年（当時中1）、最初のWWAゲームを作成する。&lt;a href=&#34;http://wwajp.com/&#34;&gt;WWA (World Wide Adventure)&lt;/a&gt;は、ロールプレイングゲーム作成に特化したゲーム作成ツールおよびゲームプレイ環境。&lt;/p&gt;
+
+&lt;p&gt;作成したゲームは自分のWebサイトに公開した。また、当時中学校の同期であった&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏にWWA制作技術を教える。&lt;/p&gt;
+
+&lt;p&gt;当初、自分のWebサイトでヒラリラー氏の作品も公開していたが、後に彼は自身のWebサイトを立ち上げ、以降の彼の作品は彼のサイトで公開されることとなった。&lt;/p&gt;
+</description>
+          </item>
+        
+      
     
       
         
@@ -17,7 +56,7 @@
             <pubDate>Fri, 01 Oct 2004 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/admission/</guid>
-            <description>&lt;p&gt;2004年10月、中学受験準備のためにWebサイトの管理の継続を断念した。&lt;/p&gt;
+            <description>&lt;p&gt;2004年（当時小6）10月、中学受験準備のためにWebサイトの管理の継続を断念した。&lt;/p&gt;
 
 &lt;p&gt;しかし、親に隠れてPCでサイト管理をしたり遊んでいたりしたため学業に身が入らず、受験勉強に大きな影響が出た。&lt;/p&gt;
 </description>
@@ -33,7 +72,7 @@
             <pubDate>Thu, 18 Dec 2003 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/1stwebsite/</guid>
-            <description>&lt;p&gt;ぱどタウンを教わった時と同じ友人グループから、楽天広場(現:楽天ブログ)の存在を聞き、 2003年12月18日、個人のWebサイトを立ち上げる。
+            <description>&lt;p&gt;&lt;a href=&#34;http://portfolio.rmn-web.net/post/padotown/&#34;&gt;ぱどタウンを教わった時&lt;/a&gt;と同じ友人グループから、楽天広場(現:楽天ブログ)の存在を聞き、 2003年12月18日、個人のWebサイトを立ち上げる。
 当時、まだ「ブログ」という言葉はまだメジャーではなかったため、ある意味では時代を先取りした形となる。&lt;/p&gt;
 
 &lt;p&gt;当時のWebサイトの内容としては、「色々な場所で使えるHTMLタグの紹介」のようなものであったが、私自身がHTMLを理解していなかったため、非常に拙いものであった。&lt;/p&gt;

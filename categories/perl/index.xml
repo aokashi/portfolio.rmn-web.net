@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perl on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/perl/</link>
+    <description>Recent content in Perl on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 28 Mar 2006 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>CGIゲーム「TOWN」の設置</title>
+            <link>http://portfolio.rmn-web.net/post/1st-town/</link>
+            <pubDate>Tue, 28 Mar 2006 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/1st-town/</guid>
+            <description>&lt;p&gt;2006年（当時中2）、&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏から「TOWN」というゲームシステムが設置されているWebサイトをいくつか知る。
+「TOWN」は、仮想的な街で暮らす系のゲーム兼SNSである。Perlが動作するWebサーバを用意できれば、個人でも簡単に設置できるという特徴がある。
+当時の私は、このプログラムをレンタルサーバ上のスペースに設置し、TOWNの管理を始めた。
+ 後に改造を施すが、当時の技術不足により復旧不可能な障害が発生し、初代のTOWNは閉鎖となってしまう。後に、他にも何作品かのTOWNを作成するが、利用者はそこまで集まらなかった。&lt;/p&gt;
+
+&lt;p&gt;一方その頃、ヒラリラーが設置したTOWNは大成功し、彼が作成したWWAと共に彼のサイトは大繁盛となる。&lt;/p&gt;
+
+&lt;p&gt;この「TOWN」の設置が、最初のWebアプリケーションの設置である。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
