@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web開発 on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/web%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in Web開発 on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 18 Dec 2003 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/web%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title></title>
+            <link>http://portfolio.rmn-web.net/post/1stwebsite/</link>
+            <pubDate>Thu, 18 Dec 2003 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/1stwebsite/</guid>
+            <description>&lt;p&gt;ぱどタウンを教わった時と同じ友人グループから、楽天広場(現:楽天ブログ)の存在を聞き、 2003年12月18日、個人のWebサイトを立ち上げる。
+当時、まだ「ブログ」という言葉はまだメジャーではなかったため、ある意味では時代を先取りした形となる。&lt;/p&gt;
+
+&lt;p&gt;当時のWebサイトの内容としては、「色々な場所で使えるHTMLタグの紹介」のようなものであったが、私自身がHTMLを理解していなかったため、非常に拙いものであった。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
