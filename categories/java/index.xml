@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/java/</link>
+    <description>Recent content in Java on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 23 Aug 2009 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>Javaの勉強</title>
+            <link>http://portfolio.rmn-web.net/post/javastudy2009/</link>
+            <pubDate>Sun, 23 Aug 2009 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/javastudy2009/</guid>
+            <description>&lt;p&gt;2009年8月(高校2年)、某所（学校関連）にて開かれたプログラミング初学者向けのJavaのセミナーに参加しました。&lt;/p&gt;
+
+&lt;p&gt;はじめてプログラミング言語に触ったのは、&lt;a href=&#34;http://portfolio.rmn-web.net/post/mail2002/&#34;&gt;2002年の祖父とのメールにおけるJavaScript&lt;/a&gt;で、はじめてコードを
+書き換えたのは(HTML, JavaScript, CSS以外では) &lt;a href=&#34;http://portfolio.rmn-web.net/post/1st-town/&#34;&gt;2006年のTOWN改造時のPerl&lt;/a&gt;で、条件分岐やループなどの制御
+構造を正式に学んだのは中学3年の技術の授業(2006-2007年)ですが、自分でゼロからコードを書くことはそれまでほとんどありませんでした。&lt;/p&gt;
+
+&lt;p&gt;これで、ようやくプログラミングの基礎が出揃ったことになります。(まだこの頃は &lt;code&gt;for&lt;/code&gt; 文の挙動の理解が少し怪しかったと記憶しております。）&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
