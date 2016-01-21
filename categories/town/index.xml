@@ -17,15 +17,29 @@
             <pubDate>Tue, 28 Mar 2006 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/1st-town/</guid>
-            <description>&lt;p&gt;2006年（当時中2）、&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏から「TOWN」というゲームシステムが設置されているWebサイトの存在を聞き、いくつかのサイトで遊びました。
+            <description>
+
+&lt;p&gt;2006年（当時中2）、&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏から「&lt;a href=&#34;http://shohei.heteml.jp/brassiere/02cgi/09.html&#34;&gt;TOWN&lt;/a&gt;」というゲームシステムが設置されているWebサイトの存在を聞き、いくつかのサイトで遊びました。
 「TOWN」は、仮想的な街で暮らす系のゲーム兼SNSで、Perlが動作するWebサーバを用意できれば個人でも簡単に設置できるのですが、
 当時の私は、このプログラムをレンタルサーバ上のスペースに設置し、TOWNの管理を始めることにしました。&lt;/p&gt;
 
-&lt;p&gt;後にプログラム上の改造を施したものの、当時の技術不足により復旧不可能な障害が発生し、初代のTOWNは閉鎖となってしまいました。&lt;/p&gt;
+&lt;p&gt;後にプログラム上の改造を施したものの、当時の技術不足により復旧不可能な障害が発生し、初代のTOWNは閉鎖に追い込まれました。&lt;/p&gt;
 
 &lt;p&gt;一方その頃、ヒラリラーが設置したTOWNは大成功し、彼が作成したWWAと共に彼のサイトは大繁盛となりました。&lt;/p&gt;
 
-&lt;p&gt;この「TOWN」の設置が、私の中では最初のWebアプリケーションの設置でした。&lt;/p&gt;
+&lt;p&gt;今思えば、この「TOWN」の設置が、私の中では最初のWebアプリケーションの設置であったと言えるでしょう。(初代TOWNの後, いくつかTOWNを設置していました。)&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:66da90c99c85fc092a82249f50659656&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;まつ吉ニュータウン, 新まつ吉王国, 電脳新都 (公開順)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;URI&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Perl, JavaScript(, HTML, CSS)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2006年頃-2008年頃&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2006年3月28日〜2009年9月21日&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;備考&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://shohei.heteml.jp/brassiere/02cgi/09.html&#34;&gt;TOWN原作&lt;/a&gt;および&lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/souko/souko_index.htm&#34;&gt;たっちゃん氏による改造TOWN&lt;/a&gt;を元としてソースコードに改変を加えた。&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
           </item>
         
