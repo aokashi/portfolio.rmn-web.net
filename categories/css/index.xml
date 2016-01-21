@@ -6,13 +6,45 @@
     <description>Recent content in Css on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 24 Mar 2009 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jul 2010 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/categories/css/index.xml" rel="self" type="application/rss+xml" />
     
       
         
           <item>
-            <title>ヒラリラーのMP 代理更新</title>
+            <title>WWA「Continue」サイト制作・制作協力</title>
+            <link>http://portfolio.rmn-web.net/post/continue/</link>
+            <pubDate>Sat, 17 Jul 2010 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/continue/</guid>
+            <description>
+
+&lt;p&gt;友人の&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;氏が制作したゲーム作品のサイト制作を行いました。
+また、ゲーム中にもゲスト出演させて頂きました。&lt;/p&gt;
+
+&lt;p&gt;この頃はまだテーブルレイアウトだった&amp;hellip;.&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:90c655c7ee92f21da500800e35391cdf&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Continue&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;URI&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net/Continue/&#34;&gt;http://hirarira.net/Continue/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ゲーム作者&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;サイト作者&lt;/th&gt;&lt;td&gt;雨宮松雪(現: まつゆき)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;各ページのHTMLソースをご覧ください&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;サイト側開発言語&lt;/th&gt;&lt;td&gt;HTML, CSS, ActionScript(Flash)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開日&lt;/th&gt;&lt;td&gt;2010年7月17日&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;備考&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net/Continue/staff.html&#34;&gt;ゲームとしての詳細なスタッフクレジット&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>友人のサイト「ヒラリラーのMP」の再構築と代理更新</title>
             <link>http://portfolio.rmn-web.net/post/mp2009/</link>
             <pubDate>Tue, 24 Mar 2009 00:00:00 +0900</pubDate>
             
@@ -37,6 +69,7 @@
 &lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;ヒラリラーのMP, G10-Project Works&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;URI(復元サイト)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw&#34;&gt;http://teatime.rmn-web.net/restore/gpw&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;URI(復元Flash)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw/oldflash.html&#34;&gt;http://teatime.rmn-web.net/restore/gpw/oldflash.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;, 雨宮松雪(現:まつゆき)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;各ページのHTMLソースをご覧ください&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;HTML, CSS, ActionScript(Flash部)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2009年4月頃-2011年3月頃&lt;/td&gt;&lt;/tr&gt;

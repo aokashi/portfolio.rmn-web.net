@@ -6,8 +6,80 @@
     <description>Recent content in Java on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 23 Aug 2009 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jul 2010 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>WWA連携プログラム搭載TOWN「ECA」の開発</title>
+            <link>http://portfolio.rmn-web.net/post/eca2010/</link>
+            <pubDate>Sat, 17 Jul 2010 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/eca2010/</guid>
+            <description>
+
+&lt;p&gt;2009年12月(高校2年)、SNSプログラム &lt;a href=&#34;http://portfolio.rmn-web.net/post/1st-town&#34;&gt;TOWN改造&lt;/a&gt; によって得られたPerlプログラミング知識、RPGエンジン&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt; の既存のランキングシステムのソースコード調査によって得られた知識を総合して、&lt;strong&gt;TOWNとWWAを連携させるプログラムを作成&lt;/strong&gt;しました。&lt;/p&gt;
+
+&lt;p&gt;(当時の)WWAには、拡張子が &lt;code&gt;.cgi&lt;/code&gt; のURLゲート(HTMLでいうところのハイパーリンク) が設定されているマスに触れることにより、ステータスなどの情報をHTTPのGETメソッドでサーバに送信する仕様があり、これを応用し
+WWAから送られてきたステータスをTOWNで受信するプログラムの作成に成功しました。（WWAの初期パラメータを外部から与える仕様がもともとあったため、TOWNからWWAへの送信は簡単に実装できました。）&lt;/p&gt;
+
+&lt;p&gt;さらに、そのプログラムを用いて新たなTOWNとなる「ECA Town」を開発し、当時管理していたチャットのメンバーと「ECA開発委員会」という団体を組織し、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TOWNにおける新規コンテンツの考案&lt;/li&gt;
+&lt;li&gt;TOWN上の街の管理&lt;/li&gt;
+&lt;li&gt;起こりうるセキュリティ上の脅威のテスト, メンバ間での共有&lt;/li&gt;
+&lt;li&gt;新しいシステムの考案、システムからプログラムへの書き起こし&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などを行いました。&lt;/p&gt;
+
+&lt;p&gt;しかしながら、クライアントサイド（ブラウザ）上でほぼ完結するプログラムのWWAと、サーバサイドでほぼ完結するプログラムのTOWNを連携してステータスの整合性を保つことは容易ではなく、セキュリティ上の事情によりWWAを動かすJavaがブラウザ上で動かしにくなった上、TOWNの抱える根本的なセキュリティ上の問題のために2012年に運営を終了することになりました。（その後、引き継いだ方がいらっしゃいまして、実際にサービスが終了になったのは2014年の2月です。）&lt;/p&gt;
+
+&lt;p&gt;ECA自体はある意味失敗に終わったプロジェクトでしたが、私自身のプログラミングの知識と通信(HTTP)の知識をより良いものにしてくれたことは言うまでもないと考えています。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:48231f3761bb34c37f1b161a7570b636&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;ECA Town&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;URI&lt;/th&gt;&lt;td&gt;（既に公開終了済）&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;TOWN関連プログラム作者&lt;/th&gt;&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;TOWN原作:&lt;a href=&#34;http://shohei.heteml.jp/brassiere&#34;&gt;brassiere&lt;/a&gt;氏&lt;/li&gt;
+&lt;li&gt; 改造TOWN: &lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/&#34;&gt;たっちゃん&lt;/a&gt;氏&lt;/li&gt;
+&lt;li&gt; WWA連携プログラム, 独自改造: 雨宮松雪(現: まつゆき)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;WWA関連プログラム作者&lt;/th&gt;&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;WWA原作:&lt;a href=&#34;http://wwajp.com&#34;&gt;NAO&lt;/a&gt;氏&lt;/li&gt;
+&lt;li&gt;WWA拡張:&lt;a href=&#34;http://asobiba.cocolog-nifty.com/&#34;&gt;デデすけ&lt;/a&gt;氏&lt;/li&gt;
+&lt;li&gt; Java四則演算実行プログラム: &lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/index.html&#34;&gt;ひしだま&lt;/a&gt;氏&lt;/li&gt;
+&lt;li&gt; 一部独自拡張: 雨宮松雪(現: まつゆき)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;運営&lt;/th&gt;&lt;td&gt;ECA開発委員会&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;雨宮松雪(現:まつゆき)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://howakku.web.fc2.com/&#34;&gt;ホワック&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://aokashi.net&#34;&gt;都環青樫(現:Aokashi)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/varteinn&#34;&gt;ヴァルテイン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rikae.blog118.fc2.com/&#34;&gt;雨宮慈雨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/shirokuroanko&#34;&gt;蒼夢憐霞&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;TOWN側開発言語&lt;/th&gt;&lt;td&gt;Perl, JavaScript, HTML, CSS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;WWA側開発言語&lt;/th&gt;&lt;td&gt;Java, WWAマクロ, WWAEval拡張マクロ&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://asobiba.cocolog-nifty.com/game/wwa/wwaeval/&#34;&gt;WWAEval&lt;/a&gt;(&lt;a href=&#34;http://www.ne.jp/asahi/hishidama/home/tech/soft/java/eval.html&#34;&gt;四則演算実行クラス&lt;/a&gt;を含む)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2009年12月頃-2011年8月頃&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2010年5月4日-2010年7月16日(αテスト)&lt;br&gt;2010年7月16日-2012年5月31日(βテスト)&lt;br&gt;2012年6月18日-2014年2月4日(運営者変更後)&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
     
       
         

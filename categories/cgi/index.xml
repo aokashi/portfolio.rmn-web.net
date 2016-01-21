@@ -33,9 +33,11 @@
 
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;まつ吉ニュータウン, 新まつ吉王国, 電脳新都 (公開順)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;プログラム作者&lt;/th&gt;&lt;td&gt;TOWN原作:&lt;a href=&#34;http://shohei.heteml.jp/brassiere&#34;&gt;brassiere&lt;/a&gt;氏, 改造TOWN: &lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/&#34;&gt;たっちゃん&lt;/a&gt;氏&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;管理・改造&lt;/th&gt;&lt;td&gt;まつ吉(現:まつゆき)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;URI&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Perl, JavaScript(, HTML, CSS)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Perl, JavaScript, HTML, CSS&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2006年頃-2008年頃&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2006年3月28日〜2009年9月21日&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;備考&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://shohei.heteml.jp/brassiere/02cgi/09.html&#34;&gt;TOWN原作&lt;/a&gt;および&lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/souko/souko_index.htm&#34;&gt;たっちゃん氏による改造TOWN&lt;/a&gt;を元としてソースコードに改変を加えた。&lt;/td&gt;&lt;/tr&gt;
