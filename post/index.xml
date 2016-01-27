@@ -6,8 +6,196 @@
     <description>Recent content in Posts on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 17 Jul 2010 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Nov 2012 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>大学のサークルでWindowsアプリケーションのランチャを作成</title>
+            <link>http://portfolio.rmn-web.net/post/launcher2012/</link>
+            <pubDate>Fri, 23 Nov 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/launcher2012/</guid>
+            <description>
+
+&lt;p&gt;2012年の大学学園祭ではは、部員のゲームを起動するプログラムを作成しました。
+Windowsアプリケーションをプロセス処理によって起動し、起動中ランチャは最小化されるようになっています。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:59797d38e151dfd693eb6e5d7c77e100&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Only One Launcher&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;非公開&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2012 Express)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年8月-2012年12月&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Excelマクロなバイト始めてみた。</title>
+            <link>http://portfolio.rmn-web.net/post/pj/</link>
+            <pubDate>Sun, 20 May 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/pj/</guid>
+            <description>&lt;p&gt;2012年から、データ入力のアルバイトを始めました。&lt;/p&gt;
+
+&lt;p&gt;といっても、実際には、Excelでかなり複雑な関数かVBAマクロを組むなど、
+プログラミングの要素がとても強かったと言えると思います。&lt;/p&gt;
+
+&lt;p&gt;その他、地形データを扱うためにXMLファイルを処理したり、&lt;a href=&#34;http://www.gsi.go.jp/GIS/whatisgis.html&#34;&gt;GIS&lt;/a&gt;ソフトウェアを
+使って地図上に情報を描画したり、SQL方言でその情報を絞り込んだりといった
+作業を行いました。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>サーブレットでチャットの入室者つぶやかせてみた</title>
+            <link>http://portfolio.rmn-web.net/post/acari/</link>
+            <pubDate>Sun, 01 Jan 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/acari/</guid>
+            <description>
+
+&lt;p&gt;2012年の頭一発目は、サーブレット！&lt;/p&gt;
+
+&lt;p&gt;当時レンタルしていたチャットサービスには、入室者の情報を取得するためのAPIが存在していました。
+具体的には、XML形式で、入室中のユーザ数とその一覧を取得することができました。&lt;/p&gt;
+
+&lt;p&gt;チャットに人を集めるべく、現在の入室者情報を1時間おきにAPIから取得、TwitterでつぶやくシステムをJavaで書き、
+&lt;a href=&#34;https://cloud.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt; 上で動かしていました。&lt;/p&gt;
+
+&lt;p&gt;また、2013年には、Twitter API のバージョンが &lt;code&gt;1.1&lt;/code&gt; になったため、Twitter4j のアップデートを適用しました。&lt;/p&gt;
+
+&lt;p&gt;（現在は、アカウント・サービスともに公開を終了しています。）&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:fd4260676f9ca781333ed7e712422b95&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Acari (Advanced Chat Anouncer Rmn Imagined)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;公開調整中&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Java&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://twitter4j.org/ja/&#34;&gt;Twitter4j&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;プラットフォーム&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://cloud.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2011年10月6日-2012年1月1日（下準備を含む）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2012年1月1日-2013年7月6日&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>大学のサークルでRPGエンジンつくった</title>
+            <link>http://portfolio.rmn-web.net/post/cpprpg/</link>
+            <pubDate>Fri, 18 Nov 2011 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/cpprpg/</guid>
+            <description>
+
+&lt;p&gt;&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt;を参考に、大学で入ったプログラミング関係のサークルで、予めテキスト形式で記述されたマップデータを読み込むことで動作する
+2次元ロールプレイングゲームのエンジンをMicrosoft Visual C++ 2010と&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;を用いて開発しました。
+このプログラムは、Windows上のデスクトップアプリケーションとして作成されました。&lt;/p&gt;
+
+&lt;p&gt;友人が担当していた戦闘シーン実行プログラミングと組み、2011年度の学園祭で展示されました。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:4196de38f1c519bb93c3e0af30edc6d4&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;シンプルRPG&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）、ごまごま&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;非公開&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2010 Express)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2011年8月15日-2011年12月18日&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>大学で基礎からプログラミングを勉強した</title>
+            <link>http://portfolio.rmn-web.net/post/program-aoj/</link>
+            <pubDate>Fri, 28 Oct 2011 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/program-aoj/</guid>
+            <description>
+
+&lt;h4 id=&#34;最初のプログラミングの授業:44de73e9e8908524fa1b9f0ea5863295&#34;&gt;最初のプログラミングの授業&lt;/h4&gt;
+
+&lt;p&gt;大学では情報科学を学ぶ学科に進みました。&lt;/p&gt;
+
+&lt;p&gt;入学初年度はC言語の基礎を勉強しました。既に、&lt;a href=&#34;http://portfolio.rmn-web.net/post/eca2010&#34;&gt;TOWN&lt;/a&gt; でPerl によるプログラミングを、
+&lt;a href=&#34;http://portfolio.rmn-web.net/post/javastudy2009&#34;&gt;某所&lt;/a&gt;でJava によるプログラミングを勉強していたため、そこそこ順調に勉強は進んでいきました。&lt;/p&gt;
+
+&lt;p&gt;この授業では、Webアプリケーション上である問題が与えられ、その問題を解くためのプログラムをサーバに提出して正誤が判定されるシステムが用いられていました。
+&lt;strong&gt;授業で使用されていたシステムの全ての問題&lt;/strong&gt; を解いたことが自信となり、その後の技術向上につながったものだと考えています。&lt;/p&gt;
+
+&lt;h4 id=&#34;aizu-online-judge:44de73e9e8908524fa1b9f0ea5863295&#34;&gt;Aizu Online Judge&lt;/h4&gt;
+
+&lt;p&gt;また、さらなる技術向上を目指し、競技プログラミングへの挑戦を始めました。具体的には、&lt;a href=&#34;http://judge.u-aizu.ac.jp/onlinejudge/&#34;&gt;Aizu Online Judge&lt;/a&gt;（以下AOJ）
+にある問題を解き進めるなど。&lt;/p&gt;
+
+&lt;p&gt;（でも、ちょっとアルゴリズムを工夫しないといけない問題はほとんど解けないのでした。）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://judge.u-aizu.ac.jp/onlinejudge/manager.jsp?uid=rmn_31415&#34;&gt;AOJでこれまでに説いた問題（Volumesを選択してください）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>高校で卒業レポートを書いた</title>
+            <link>http://portfolio.rmn-web.net/post/grad-hs/</link>
+            <pubDate>Thu, 10 Mar 2011 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/grad-hs/</guid>
+            <description>&lt;p&gt;2010年から2011年、高校の授業（卒業研究: 情報特論）の一環として卒業レポートを書きました。&lt;/p&gt;
+
+&lt;p&gt;内容としては、TOWN、特に&lt;a href=&#34;http://portfolio.rmn-web.net/post/eca2010&#34;&gt;ECA Town&lt;/a&gt;で身につけたWebアプリケーションの話から話を広げ、
+Web関連の技術を俯瞰してみようというものでした。具体的には、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTTPと, それを支えるTCP/IP&lt;/li&gt;
+&lt;li&gt;URI&lt;/li&gt;
+&lt;li&gt;クライアントとサーバ&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Flashなどのプラグインを要する技術&lt;/li&gt;
+&lt;li&gt;サーバサイドのプログラミング技術&lt;/li&gt;
+&lt;li&gt;サーバサイドのアーキテクチャ（ 3層モデル, Model-View-Controller など）&lt;/li&gt;
+&lt;li&gt;セキュリティのお話（XSS, CSRF, SQLインジェクションなど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;あたりを簡単にですが網羅していました。（約2万字）&lt;/p&gt;
+
+&lt;p&gt;しかし、何かを論じる部分にかけており、あまりいいものにはなりませんでした。
+今だったらもっと濃いものが書けそうな気がします。気が向いたらまた書きなおしてみたいところですね。&lt;/p&gt;
+</description>
+          </item>
+        
+      
     
       
         
@@ -282,73 +470,6 @@ PCを利用することができない状態となってしまいました。(�
 当時、まだ「ブログ」という言葉はまだメジャーではなかったため、ある意味では時代を先取りした形となると言えるかもしれません。&lt;/p&gt;
 
 &lt;p&gt;当時のWebサイトの内容としては、「色々な場所で使えるHTMLタグの紹介」のようなものでしたが、私自身がHTMLを理解していなかったため、非常に拙いものであったと覚えています。&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>SNS「ぱどタウン」への参加、Webでの活動の始まり。</title>
-            <link>http://portfolio.rmn-web.net/post/padotown/</link>
-            <pubDate>Wed, 15 Oct 2003 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/padotown/</guid>
-            <description>&lt;p&gt;小学5年(2003年)の10月、当時の小学校の友人グループから&lt;a href=&#34;http://www.padotown.net/&#34;&gt;ぱどタウン&lt;/a&gt;というコミュニティサイト（今風に言うならSNS）
-についてを知り、登録します。このWebサービスは、Web上の仮想的な街に部屋を持ち、仮想的な生活を送るという趣旨のものでした。&lt;/p&gt;
-
-&lt;p&gt;この頃、自分の「部屋」を改造するためにHTMLタグやJavaScriptを使いはじめます。しかし、この頃はタグの意味も理解せずコピペする程度でした&amp;hellip;&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>「隠しページ探し」ゲームでコンピュータやWebの基礎を学ぶ</title>
-            <link>http://portfolio.rmn-web.net/post/hiddenpages2002/</link>
-            <pubDate>Mon, 01 Jul 2002 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/hiddenpages2002/</guid>
-            <description>&lt;p&gt;小学4年の頃(2002年)、&lt;a href=&#34;http://portfolio.rmn-web.net/post/mail2002&#34;&gt;祖父へのメール&lt;/a&gt;に用いるために立ち寄ったとあるWebサイトがきっかけで、「 &lt;strong&gt;隠しページ探し&lt;/strong&gt; 」というゲームを知ることになります。このゲームは、隠されているWebページを様々なヒントを手がかりに探すというものでした。&lt;/p&gt;
-
-&lt;p&gt;この頃はまだHTMLに関して基礎からわかっていたわけではなかったのですが、この頃身につけた知識が後々役立っていくことになろうとは&amp;hellip;&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>祖父とのメール</title>
-            <link>http://portfolio.rmn-web.net/post/mail2002/</link>
-            <pubDate>Tue, 01 Jan 2002 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/mail2002/</guid>
-            <description>&lt;p&gt;2002年くらいになると、私と祖父の間で直接メールをやりとりするようになりました。さらにもう少しすると、画像やWord文書をメールに添付して送信するようになりました。メール本文に対しては、文字色や大きさを変えるなどの装飾をするようになりました。&lt;/p&gt;
-
-&lt;p&gt;JavaScriptを用いて時刻を表示するWeb上のサンプルを拾ってきて、メール本文に貼り付けるなどの工夫もするようになりました。そういう意味では、「 &lt;strong&gt;生まれて初めて触ったプログラミング言語はJavaScript&lt;/strong&gt; 」と言えるかもしれないですね。&lt;/p&gt;
-
-&lt;p&gt;ただ、プログラムの論理構造なんかはこの頃はまだ理解しておらず、「プログラムをしていた」とは言えないのではないでしょうか&amp;hellip;。&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>はじめてのPC</title>
-            <link>http://portfolio.rmn-web.net/post/first-pc/</link>
-            <pubDate>Mon, 10 Sep 2001 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/first-pc/</guid>
-            <description>&lt;p&gt;2001年9月(当時小学3年生)、当時川崎市内にあった自宅にPCが来ました。これは父が購入したもので、主に父が仕事で用いるものでした。これと同じ頃、当時京都にいた祖父もPCを購入していて、父と祖父の間でメールをやりとりするようになりました。&lt;/p&gt;
-
-&lt;p&gt;そのメールのやりとりの中で、父が書いた文章の後におまけ程度にメッセージを残したのですが、これが私のPCとの長い付き合いの最初になるのでした&amp;hellip;&lt;/p&gt;
 </description>
           </item>
         

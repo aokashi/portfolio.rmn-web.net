@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>サーブレット on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/%E3%82%B5%E3%83%BC%E3%83%96%E3%83%AC%E3%83%83%E3%83%88/</link>
+    <description>Recent content in サーブレット on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/%E3%82%B5%E3%83%BC%E3%83%96%E3%83%AC%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>サーブレットでチャットの入室者つぶやかせてみた</title>
+            <link>http://portfolio.rmn-web.net/post/acari/</link>
+            <pubDate>Sun, 01 Jan 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/acari/</guid>
+            <description>
+
+&lt;p&gt;2012年の頭一発目は、サーブレット！&lt;/p&gt;
+
+&lt;p&gt;当時レンタルしていたチャットサービスには、入室者の情報を取得するためのAPIが存在していました。
+具体的には、XML形式で、入室中のユーザ数とその一覧を取得することができました。&lt;/p&gt;
+
+&lt;p&gt;チャットに人を集めるべく、現在の入室者情報を1時間おきにAPIから取得、TwitterでつぶやくシステムをJavaで書き、
+&lt;a href=&#34;https://cloud.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt; 上で動かしていました。&lt;/p&gt;
+
+&lt;p&gt;また、2013年には、Twitter API のバージョンが &lt;code&gt;1.1&lt;/code&gt; になったため、Twitter4j のアップデートを適用しました。&lt;/p&gt;
+
+&lt;p&gt;（現在は、アカウント・サービスともに公開を終了しています。）&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:fd4260676f9ca781333ed7e712422b95&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Acari (Advanced Chat Anouncer Rmn Imagined)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;公開調整中&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Java&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://twitter4j.org/ja/&#34;&gt;Twitter4j&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;プラットフォーム&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://cloud.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2011年10月6日-2012年1月1日（下準備を含む）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2012年1月1日-2013年7月6日&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

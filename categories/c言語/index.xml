@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C言語 on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/c%E8%A8%80%E8%AA%9E/</link>
+    <description>Recent content in C言語 on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 28 Oct 2011 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/c%E8%A8%80%E8%AA%9E/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>大学で基礎からプログラミングを勉強した</title>
+            <link>http://portfolio.rmn-web.net/post/program-aoj/</link>
+            <pubDate>Fri, 28 Oct 2011 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/program-aoj/</guid>
+            <description>
+
+&lt;h4 id=&#34;最初のプログラミングの授業:44de73e9e8908524fa1b9f0ea5863295&#34;&gt;最初のプログラミングの授業&lt;/h4&gt;
+
+&lt;p&gt;大学では情報科学を学ぶ学科に進みました。&lt;/p&gt;
+
+&lt;p&gt;入学初年度はC言語の基礎を勉強しました。既に、&lt;a href=&#34;http://portfolio.rmn-web.net/post/eca2010&#34;&gt;TOWN&lt;/a&gt; でPerl によるプログラミングを、
+&lt;a href=&#34;http://portfolio.rmn-web.net/post/javastudy2009&#34;&gt;某所&lt;/a&gt;でJava によるプログラミングを勉強していたため、そこそこ順調に勉強は進んでいきました。&lt;/p&gt;
+
+&lt;p&gt;この授業では、Webアプリケーション上である問題が与えられ、その問題を解くためのプログラムをサーバに提出して正誤が判定されるシステムが用いられていました。
+&lt;strong&gt;授業で使用されていたシステムの全ての問題&lt;/strong&gt; を解いたことが自信となり、その後の技術向上につながったものだと考えています。&lt;/p&gt;
+
+&lt;h4 id=&#34;aizu-online-judge:44de73e9e8908524fa1b9f0ea5863295&#34;&gt;Aizu Online Judge&lt;/h4&gt;
+
+&lt;p&gt;また、さらなる技術向上を目指し、競技プログラミングへの挑戦を始めました。具体的には、&lt;a href=&#34;http://judge.u-aizu.ac.jp/onlinejudge/&#34;&gt;Aizu Online Judge&lt;/a&gt;（以下AOJ）
+にある問題を解き進めるなど。&lt;/p&gt;
+
+&lt;p&gt;（でも、ちょっとアルゴリズムを工夫しないといけない問題はほとんど解けないのでした。）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://judge.u-aizu.ac.jp/onlinejudge/manager.jsp?uid=rmn_31415&#34;&gt;AOJでこれまでに説いた問題（Volumesを選択してください）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vba on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/vba/</link>
+    <description>Recent content in Vba on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 20 May 2012 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/vba/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>Excelマクロなバイト始めてみた。</title>
+            <link>http://portfolio.rmn-web.net/post/pj/</link>
+            <pubDate>Sun, 20 May 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/pj/</guid>
+            <description>&lt;p&gt;2012年から、データ入力のアルバイトを始めました。&lt;/p&gt;
+
+&lt;p&gt;といっても、実際には、Excelでかなり複雑な関数かVBAマクロを組むなど、
+プログラミングの要素がとても強かったと言えると思います。&lt;/p&gt;
+
+&lt;p&gt;その他、地形データを扱うためにXMLファイルを処理したり、&lt;a href=&#34;http://www.gsi.go.jp/GIS/whatisgis.html&#34;&gt;GIS&lt;/a&gt;ソフトウェアを
+使って地図上に情報を描画したり、SQL方言でその情報を絞り込んだりといった
+作業を行いました。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

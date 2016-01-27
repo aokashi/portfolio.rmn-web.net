@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 10 Mar 2011 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>高校で卒業レポートを書いた</title>
+            <link>http://portfolio.rmn-web.net/post/grad-hs/</link>
+            <pubDate>Thu, 10 Mar 2011 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/grad-hs/</guid>
+            <description>&lt;p&gt;2010年から2011年、高校の授業（卒業研究: 情報特論）の一環として卒業レポートを書きました。&lt;/p&gt;
+
+&lt;p&gt;内容としては、TOWN、特に&lt;a href=&#34;http://portfolio.rmn-web.net/post/eca2010&#34;&gt;ECA Town&lt;/a&gt;で身につけたWebアプリケーションの話から話を広げ、
+Web関連の技術を俯瞰してみようというものでした。具体的には、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTTPと, それを支えるTCP/IP&lt;/li&gt;
+&lt;li&gt;URI&lt;/li&gt;
+&lt;li&gt;クライアントとサーバ&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Flashなどのプラグインを要する技術&lt;/li&gt;
+&lt;li&gt;サーバサイドのプログラミング技術&lt;/li&gt;
+&lt;li&gt;サーバサイドのアーキテクチャ（ 3層モデル, Model-View-Controller など）&lt;/li&gt;
+&lt;li&gt;セキュリティのお話（XSS, CSRF, SQLインジェクションなど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;あたりを簡単にですが網羅していました。（約2万字）&lt;/p&gt;
+
+&lt;p&gt;しかし、何かを論じる部分にかけており、あまりいいものにはなりませんでした。
+今だったらもっと濃いものが書けそうな気がします。気が向いたらまた書きなおしてみたいところですね。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
