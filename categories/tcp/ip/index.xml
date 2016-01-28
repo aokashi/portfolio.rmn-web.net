@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tcp/Ip on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/tcp/ip/</link>
+    <description>Recent content in Tcp/Ip on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 22 Nov 2013 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>大学のサークルでランキングシステム作成</title>
+            <link>http://portfolio.rmn-web.net/post/ranking2013/</link>
+            <pubDate>Fri, 22 Nov 2013 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/ranking2013/</guid>
+            <description>
+
+&lt;p&gt;2013年の大学学園祭では、各部員が作成したゲームからスコアサーバにスコアを
+送信して、ランキングを表示するシステムを作成しました。&lt;/p&gt;
+
+&lt;p&gt;展示では、スコアサーバは普通のWindowsマシンでした。常時起動していて、
+画面には現在のスコアランキングが表示されていました。各端末からのリクエストを受け取ると
+ゲームのIDとスコアを適切な順位の場所に挿入し、画面の更新を行っていました。&lt;/p&gt;
+
+&lt;p&gt;当時はなぜか生のTCP/IPを扱っていましたが、のちに普通にHTTPでやりとりして、
+サーバは普通のWebサーバで、ランキングのデータ保持は関係データベースを使った方が
+簡単にできると感じました。そして、2015年度の学園祭では後輩がそれを実装しました
+（PHP+MySQLだったようです）。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:ded82ce9f72938f30da8c89c850f07ad&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;ERS( E. Ranking System )&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;公開準備中&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2012 Express)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年8月-2013年10月&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
