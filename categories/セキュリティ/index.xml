@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>セキュリティ on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link>
+    <description>Recent content in セキュリティ on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 12 Aug 2014 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>セキュリティ・キャンプ全国大会2014に参加</title>
+            <link>http://portfolio.rmn-web.net/post/seccamp14/</link>
+            <pubDate>Tue, 12 Aug 2014 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/seccamp14/</guid>
+            <description>
+
+&lt;p&gt;2014年8月に行われた、「&lt;a href=&#34;http://www.ipa.go.jp/jinzai/camp/2014/zenkoku2014.html&#34;&gt;セキュリティ・キャンプ全国大会 2014&lt;/a&gt;
+（Web・セキュリティ・クラス）に参加しました。&lt;/p&gt;
+
+&lt;p&gt;Webクラスとしては、主にContent Security Policyなどの任意のJavaScript実行を
+防ぐ仕組みを学びました。実習では、実習内用の脆弱なWebアプリケーションの脆弱性を探し、脆弱性とその対策をまとめてチームで発表しました。&lt;/p&gt;
+
+&lt;p&gt;この実習用のWebアプリケーションは、実習で貸し出されたFirefox OS端末(Flame)から使われる想定となっていました。スマートフォン上におけるHTML/JavaScriptの取り扱いがとても新鮮でした。&lt;/p&gt;
+
+&lt;p&gt;この他、他のクラスの方と合同で「セキュアな企業」についてディスカッションしたり、CTF(Capture the Flag)という競技で戦ったりしました。&lt;/p&gt;
+
+&lt;p&gt;素晴らしい方々と出会える貴重な機会でしたが、人とコミュニケーションを取るのが苦手であった当時の私は、折角の機会を逃す傾向にあったと思います。&lt;/p&gt;
+
+&lt;h4 id=&#34;副産物-進捗clicker:05d855f11b304bb81011e044efa5987c&#34;&gt;副産物「進捗Clicker」&lt;/h4&gt;
+
+&lt;p&gt;Firefox OS のアプリケーションを作成する事前課題が出されたため、作成したゲームです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;進捗Clicker&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/rmn31415/progress-clicker&#34;&gt;https://github.com/rmn31415/progress-clicker&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML, CSS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/buildingfirefoxos/Building-Blocks&#34;&gt;Building-Blocks&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

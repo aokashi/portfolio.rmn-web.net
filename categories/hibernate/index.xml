@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hibernate on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/hibernate/</link>
+    <description>Recent content in Hibernate on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 03 Feb 2015 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/hibernate/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>大学で卒業論文書いた</title>
+            <link>http://portfolio.rmn-web.net/post/thesis2015/</link>
+            <pubDate>Tue, 03 Feb 2015 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/thesis2015/</guid>
+            <description>&lt;p&gt;大学に入って所属した研究室で卒業論文を書きました。&lt;/p&gt;
+
+&lt;p&gt;あるシステムを構築しました。技術的にはだいたいこんな具合。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java。サーブレット。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.spring.io/spring-framework/&#34;&gt;Spring Framework&lt;/a&gt; を用いた Model-View-Controller の構成。&lt;/li&gt;
+&lt;li&gt;サーバサイドにある複雑な情報を予め組み立ておきます。&lt;/li&gt;
+&lt;li&gt;クライアントからのリクエストに応じて、JSON形式で組み立てた情報を返します。(Web API)&lt;/li&gt;
+&lt;li&gt;必要な情報はMySQL上に保存。JavaのオブジェクトとSQLの対応(O/Rマッピング)には&lt;a href=&#34;http://hibernate.org/&#34;&gt;Hibernate&lt;/a&gt;を用いました。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

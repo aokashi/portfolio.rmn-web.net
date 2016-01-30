@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アクションゲーム on まつゆき/rmn.</title>
+    <link>http://portfolio.rmn-web.net/categories/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/</link>
+    <description>Recent content in アクションゲーム on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 22 Nov 2012 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://portfolio.rmn-web.net/categories/%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>物理演算アクションゲームを授業で発表</title>
+            <link>http://portfolio.rmn-web.net/post/pointp/</link>
+            <pubDate>Thu, 22 Nov 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/pointp/</guid>
+            <description>&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
+「Box2DJS」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;線分ABを点Pがノリノリで動くゲーム&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/rmn31415/pointp&#34;&gt;https://github.com/rmn31415/pointp&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;, &lt;a href=&#34;http://prototypejs.org/&#34;&gt;Prototype.js&lt;/a&gt;, &lt;a href=&#34;https://github.com/arv/explorercanvas&#34;&gt;ExplorerCanvas&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

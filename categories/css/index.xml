@@ -6,8 +6,89 @@
     <description>Recent content in Css on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 17 Jul 2010 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2015 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>RPGエンジン「World Wide Adventure」のJavaScript環境への移植および互換スクリプトの作成</title>
+            <link>http://portfolio.rmn-web.net/post/wwawing/</link>
+            <pubDate>Fri, 13 Mar 2015 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/wwawing/</guid>
+            <description>
+
+&lt;p&gt;&lt;a href=&#34;http://portfolio.rmn-web.net/page/thesis2015&#34;&gt;卒業論文&lt;/a&gt;を終え、どうしてもやりたくて時間がとれなかったJava製ロールプレイングゲームエンジン&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt;のJavaScriptの移植に再度着手することにしました。&lt;/p&gt;
+
+&lt;p&gt;下記の3プロジェクトをほぼ1人で遂行しました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WWA Wing(WWAのJavaScript環境への移植)&lt;/li&gt;
+&lt;li&gt;WWA Loader(バイナリ形式WWAマップデータからデータのロード, JavaScriptのオブジェクトとして結果を返す)&lt;/li&gt;
+&lt;li&gt;WWA Phoenix(従来のWWAのHTMLタグをWWA Wingのタグに置換)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;wwa-wing:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Wing&lt;/h3&gt;
+
+&lt;p&gt;Javaアプレットで動作するロールプレイングゲーム実行環境&lt;a href=&#34;http://wwajp.com/&#34;&gt;World Wide Adventure&lt;/a&gt;のJavaScript 版の実行環境です。
+近年、非HTTPSなWebサイトでJavaアプレットを実行するには、実行を許可するサイト一覧である「例外リスト」への追加が必要になり、WWA本来の「サイトにアクセスしてすぐ遊べる」という特徴が失われたために開発を開始しました。&lt;/p&gt;
+
+&lt;p&gt;開発途中でWWAの公式サイトの公認を得ており、現在においては公式サイトのWWAもWWA Wingでの動作に対応しています。
+また、ゲーム投稿サイト&lt;a href=&#34;http://plicy.net/&#34;&gt;PliCy&lt;/a&gt; (外部サイト) を利用することで、Webサイトを持たずにWWAを設置することができるようになっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wwawing.com&#34;&gt;公式サイト&lt;/a&gt;での配布物では、ローカル環境でサーバを建てて、ゲームのテストを可能にするプログラム「WWA Debugger」(&lt;a href=&#34;http://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;氏による)と、
+原作からのWWA作成ツール、およびWWALoaderが同梱され、それだけでWWAの開発が可能となっています。しかし、開発ツールとWWA DebuggerはWindowsでのみしか動作しないため、作成ツールのマルチプラットフォーム化が今後の課題となっています。&lt;/p&gt;
+
+&lt;p&gt;また、スマートフォンでも動作するのですが、効果音が鳴らない問題や、操作性の問題などがあり、順次改善予定です。
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Wing ( 発表当初「World Wide Adventure on JavaScript」)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき, &lt;a href=&#34;htp://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;, &lt;a href=&#34;http://aokashi.net&#34;&gt;Aokashi&lt;/a&gt;, &lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/WWAWing/WWAWing&#34;&gt;https://github.com/WWAWing/WWAWing&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;TypeScript, JavaScript, CSS, HTML&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://kolber.github.io/audiojs/&#34;&gt;Audio.js&lt;/a&gt;, &lt;a href=&#34;https://code.google.com/archive/p/crypto-js/&#34;&gt;Crypto-JS&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用コンパイラ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;tsc&lt;/a&gt;, &lt;a href=&#34;https://developers.google.com/closure/compiler/&#34;&gt;Google Closure Compiler&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;MIT License&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2015年2月3日〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wwa-loader:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Loader&lt;/h3&gt;
+
+&lt;p&gt;WWAのマップデータ(バイナリ)を解析するJavaScriptプログラムです。
+WWA Wingで必要になるため作成を開始しました。 基本的にWeb Workerとして呼び出すことを前提としていますが、
+後述するWWA Phoenixのクロスオリジンな通信に対応するために、普通のJavaScriptプログラムとしても呼び出すことも可能となっています。&lt;/p&gt;
+
+&lt;p&gt;マップデータファイル名を与えると、そのマップデータファイル名を &lt;code&gt;XMLHttpRequest&lt;/code&gt; で取得し、解析結果をJavaScriptのオブジェクト として返します。
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Loader&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき, &lt;a href=&#34;htp://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;, &lt;a href=&#34;http://aokashi.net&#34;&gt;Aokashi&lt;/a&gt;, &lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/WWAWing/WWALoader&#34;&gt;https://github.com/WWAWing/WWALoader&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;TypeScript, JavaScript&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://kolber.github.io/audiojs/&#34;&gt;Audio.js&lt;/a&gt;, &lt;a href=&#34;https://code.google.com/archive/p/crypto-js/&#34;&gt;Crypto-JS&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用コンパイラ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;tsc&lt;/a&gt;, &lt;a href=&#34;https://developers.google.com/closure/compiler/&#34;&gt;Google Closure Compiler&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;MIT License&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年4月〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wwa-phoenix:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Phoenix&lt;/h3&gt;
+
+&lt;p&gt;WWA Wingは、WWA設置サイトの管理者が対応するまで、その効力を発さないという欠点があります。
+ですので、既存のWWAを遊ぼうとした時には相変わらずJava版となってしまいます。
+そこで、従来のWWAをWWA Wing相当の実行環境に置き換えるブックマークレットとして、WWA Phoenixを開発しました。
+将来的には、ブラウザの拡張機能として公開予定です。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Phoenix (開発当初「JumpGate」)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://wwawing.com/wwap&#34;&gt;http://wwawing.com/wwap&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Creative Commons CC-BY 4.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年4月〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
     
       
         

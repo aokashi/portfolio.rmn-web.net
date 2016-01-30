@@ -6,8 +6,153 @@
     <description>Recent content in 時代背景 on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 22 Nov 2013 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2015 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://portfolio.rmn-web.net/categories/%E6%99%82%E4%BB%A3%E8%83%8C%E6%99%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>RPGエンジン「World Wide Adventure」のJavaScript環境への移植および互換スクリプトの作成</title>
+            <link>http://portfolio.rmn-web.net/post/wwawing/</link>
+            <pubDate>Fri, 13 Mar 2015 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/wwawing/</guid>
+            <description>
+
+&lt;p&gt;&lt;a href=&#34;http://portfolio.rmn-web.net/page/thesis2015&#34;&gt;卒業論文&lt;/a&gt;を終え、どうしてもやりたくて時間がとれなかったJava製ロールプレイングゲームエンジン&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt;のJavaScriptの移植に再度着手することにしました。&lt;/p&gt;
+
+&lt;p&gt;下記の3プロジェクトをほぼ1人で遂行しました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WWA Wing(WWAのJavaScript環境への移植)&lt;/li&gt;
+&lt;li&gt;WWA Loader(バイナリ形式WWAマップデータからデータのロード, JavaScriptのオブジェクトとして結果を返す)&lt;/li&gt;
+&lt;li&gt;WWA Phoenix(従来のWWAのHTMLタグをWWA Wingのタグに置換)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;wwa-wing:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Wing&lt;/h3&gt;
+
+&lt;p&gt;Javaアプレットで動作するロールプレイングゲーム実行環境&lt;a href=&#34;http://wwajp.com/&#34;&gt;World Wide Adventure&lt;/a&gt;のJavaScript 版の実行環境です。
+近年、非HTTPSなWebサイトでJavaアプレットを実行するには、実行を許可するサイト一覧である「例外リスト」への追加が必要になり、WWA本来の「サイトにアクセスしてすぐ遊べる」という特徴が失われたために開発を開始しました。&lt;/p&gt;
+
+&lt;p&gt;開発途中でWWAの公式サイトの公認を得ており、現在においては公式サイトのWWAもWWA Wingでの動作に対応しています。
+また、ゲーム投稿サイト&lt;a href=&#34;http://plicy.net/&#34;&gt;PliCy&lt;/a&gt; (外部サイト) を利用することで、Webサイトを持たずにWWAを設置することができるようになっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wwawing.com&#34;&gt;公式サイト&lt;/a&gt;での配布物では、ローカル環境でサーバを建てて、ゲームのテストを可能にするプログラム「WWA Debugger」(&lt;a href=&#34;http://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;氏による)と、
+原作からのWWA作成ツール、およびWWALoaderが同梱され、それだけでWWAの開発が可能となっています。しかし、開発ツールとWWA DebuggerはWindowsでのみしか動作しないため、作成ツールのマルチプラットフォーム化が今後の課題となっています。&lt;/p&gt;
+
+&lt;p&gt;また、スマートフォンでも動作するのですが、効果音が鳴らない問題や、操作性の問題などがあり、順次改善予定です。
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Wing ( 発表当初「World Wide Adventure on JavaScript」)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき, &lt;a href=&#34;htp://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;, &lt;a href=&#34;http://aokashi.net&#34;&gt;Aokashi&lt;/a&gt;, &lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/WWAWing/WWAWing&#34;&gt;https://github.com/WWAWing/WWAWing&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;TypeScript, JavaScript, CSS, HTML&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://kolber.github.io/audiojs/&#34;&gt;Audio.js&lt;/a&gt;, &lt;a href=&#34;https://code.google.com/archive/p/crypto-js/&#34;&gt;Crypto-JS&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用コンパイラ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;tsc&lt;/a&gt;, &lt;a href=&#34;https://developers.google.com/closure/compiler/&#34;&gt;Google Closure Compiler&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;MIT License&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2015年2月3日〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wwa-loader:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Loader&lt;/h3&gt;
+
+&lt;p&gt;WWAのマップデータ(バイナリ)を解析するJavaScriptプログラムです。
+WWA Wingで必要になるため作成を開始しました。 基本的にWeb Workerとして呼び出すことを前提としていますが、
+後述するWWA Phoenixのクロスオリジンな通信に対応するために、普通のJavaScriptプログラムとしても呼び出すことも可能となっています。&lt;/p&gt;
+
+&lt;p&gt;マップデータファイル名を与えると、そのマップデータファイル名を &lt;code&gt;XMLHttpRequest&lt;/code&gt; で取得し、解析結果をJavaScriptのオブジェクト として返します。
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Loader&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき, &lt;a href=&#34;htp://aruneko.net&#34;&gt;Aruneko&lt;/a&gt;, &lt;a href=&#34;http://aokashi.net&#34;&gt;Aokashi&lt;/a&gt;, &lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/WWAWing/WWALoader&#34;&gt;https://github.com/WWAWing/WWALoader&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;TypeScript, JavaScript&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://kolber.github.io/audiojs/&#34;&gt;Audio.js&lt;/a&gt;, &lt;a href=&#34;https://code.google.com/archive/p/crypto-js/&#34;&gt;Crypto-JS&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用コンパイラ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;tsc&lt;/a&gt;, &lt;a href=&#34;https://developers.google.com/closure/compiler/&#34;&gt;Google Closure Compiler&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;MIT License&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年4月〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;wwa-phoenix:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Phoenix&lt;/h3&gt;
+
+&lt;p&gt;WWA Wingは、WWA設置サイトの管理者が対応するまで、その効力を発さないという欠点があります。
+ですので、既存のWWAを遊ぼうとした時には相変わらずJava版となってしまいます。
+そこで、従来のWWAをWWA Wing相当の実行環境に置き換えるブックマークレットとして、WWA Phoenixを開発しました。
+将来的には、ブラウザの拡張機能として公開予定です。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;WWA Phoenix (開発当初「JumpGate」)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;WWA Wing Team (まつゆき)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://wwawing.com/wwap&#34;&gt;http://wwawing.com/wwap&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Creative Commons CC-BY 4.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年4月〜現在&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>大学で卒業論文書いた</title>
+            <link>http://portfolio.rmn-web.net/post/thesis2015/</link>
+            <pubDate>Tue, 03 Feb 2015 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/thesis2015/</guid>
+            <description>&lt;p&gt;大学に入って所属した研究室で卒業論文を書きました。&lt;/p&gt;
+
+&lt;p&gt;あるシステムを構築しました。技術的にはだいたいこんな具合。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Java。サーブレット。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.spring.io/spring-framework/&#34;&gt;Spring Framework&lt;/a&gt; を用いた Model-View-Controller の構成。&lt;/li&gt;
+&lt;li&gt;サーバサイドにある複雑な情報を予め組み立ておきます。&lt;/li&gt;
+&lt;li&gt;クライアントからのリクエストに応じて、JSON形式で組み立てた情報を返します。(Web API)&lt;/li&gt;
+&lt;li&gt;必要な情報はMySQL上に保存。JavaのオブジェクトとSQLの対応(O/Rマッピング)には&lt;a href=&#34;http://hibernate.org/&#34;&gt;Hibernate&lt;/a&gt;を用いました。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>セキュリティ・キャンプ全国大会2014に参加</title>
+            <link>http://portfolio.rmn-web.net/post/seccamp14/</link>
+            <pubDate>Tue, 12 Aug 2014 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/seccamp14/</guid>
+            <description>
+
+&lt;p&gt;2014年8月に行われた、「&lt;a href=&#34;http://www.ipa.go.jp/jinzai/camp/2014/zenkoku2014.html&#34;&gt;セキュリティ・キャンプ全国大会 2014&lt;/a&gt;
+（Web・セキュリティ・クラス）に参加しました。&lt;/p&gt;
+
+&lt;p&gt;Webクラスとしては、主にContent Security Policyなどの任意のJavaScript実行を
+防ぐ仕組みを学びました。実習では、実習内用の脆弱なWebアプリケーションの脆弱性を探し、脆弱性とその対策をまとめてチームで発表しました。&lt;/p&gt;
+
+&lt;p&gt;この実習用のWebアプリケーションは、実習で貸し出されたFirefox OS端末(Flame)から使われる想定となっていました。スマートフォン上におけるHTML/JavaScriptの取り扱いがとても新鮮でした。&lt;/p&gt;
+
+&lt;p&gt;この他、他のクラスの方と合同で「セキュアな企業」についてディスカッションしたり、CTF(Capture the Flag)という競技で戦ったりしました。&lt;/p&gt;
+
+&lt;p&gt;素晴らしい方々と出会える貴重な機会でしたが、人とコミュニケーションを取るのが苦手であった当時の私は、折角の機会を逃す傾向にあったと思います。&lt;/p&gt;
+
+&lt;h4 id=&#34;副産物-進捗clicker:05d855f11b304bb81011e044efa5987c&#34;&gt;副産物「進捗Clicker」&lt;/h4&gt;
+
+&lt;p&gt;Firefox OS のアプリケーションを作成する事前課題が出されたため、作成したゲームです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;進捗Clicker&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/rmn31415/progress-clicker&#34;&gt;https://github.com/rmn31415/progress-clicker&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML, CSS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/buildingfirefoxos/Building-Blocks&#34;&gt;Building-Blocks&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+          </item>
+        
+      
     
       
         
@@ -69,6 +214,59 @@ Windowsアプリケーションをプロセス処理によって起動し、起�
 &lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年8月-2012年12月&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>大学のサークルでWindowsアプリケーションのランチャを作成</title>
+            <link>http://portfolio.rmn-web.net/post/launcher2012/</link>
+            <pubDate>Fri, 23 Nov 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/launcher2012/</guid>
+            <description>
+
+&lt;p&gt;2012年の大学学園祭では、部員のゲームを起動するプログラムを作成しました。
+Windowsアプリケーションをプロセス処理によって起動し、起動中ランチャは最小化されるようになっています。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:56830a9a3e5e7647a2d9564f7de5cf63&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Only One Launcher&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;非公開&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2012 Express)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年8月-2012年12月&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>物理演算アクションゲームを授業で発表</title>
+            <link>http://portfolio.rmn-web.net/post/pointp/</link>
+            <pubDate>Thu, 22 Nov 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/pointp/</guid>
+            <description>&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
+「Box2DJS」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;線分ABを点Pがノリノリで動くゲーム&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;https://github.com/rmn31415/pointp&#34;&gt;https://github.com/rmn31415/pointp&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;, &lt;a href=&#34;http://prototypejs.org/&#34;&gt;Prototype.js&lt;/a&gt;, &lt;a href=&#34;https://github.com/arv/explorercanvas&#34;&gt;ExplorerCanvas&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
           </item>
         
@@ -353,143 +551,6 @@ WWAから送られてきたステータスをTOWNで受信するプログラム�
 構造を正式に学んだのは中学3年の技術の授業(2006-2007年)ですが、自分でゼロからコードを書くことはそれまでほとんどありませんでした。&lt;/p&gt;
 
 &lt;p&gt;これで、ようやくプログラミングの基礎が出揃ったことになります。(まだこの頃は &lt;code&gt;for&lt;/code&gt; 文の挙動の理解が少し怪しかったと記憶しております。）&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>友人のサイト「ヒラリラーのMP」の再構築と代理更新</title>
-            <link>http://portfolio.rmn-web.net/post/mp2009/</link>
-            <pubDate>Tue, 24 Mar 2009 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/mp2009/</guid>
-            <description>
-
-&lt;p&gt;2009年3月、中学以来からの付き合いの友人の&lt;a href=&#34;https://twitter.com/hirarira617&#34;&gt;ヒラリラー&lt;/a&gt; 氏のWebサイト「&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラーのMP&lt;/a&gt;」が更新困難となったため、
-管理業務を一時的に引き受けることになりました。管理開始時に、サイトの大幅なリニューアルを行ったため、副産物として、HTML/CSSの体系的な知識が身につきました。（&lt;code&gt;table&lt;/code&gt; 要素
-でレイアウトをする残念っぷりでしたが）&lt;/p&gt;
-
-&lt;p&gt;また、このリニューアルでは、&lt;a href=&#34;http://parafla.coaworks.jp/&#34;&gt;Parafla!&lt;/a&gt;というFlash作成ツールを用いて、ナビゲーションと&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw/oldflash.html&#34;&gt;画面中央部に流すムービー&lt;/a&gt;を作成しました。&lt;/p&gt;
-
-&lt;p&gt;なお、この時期に個人用のノートパソコンを購入し、PC使用可能時間が大幅に伸びたため、代理更新には相当力が入ったのですが、一方で、学業成績の低下などの問題も発生しました。&lt;/p&gt;
-
-&lt;p&gt;しかし、ヒラリラーが再び更新可能となった2009年10月には代理更新は終了することとなりました。（ヒラリラーのMPリニューアルで使用したレイアウトは、引き続き自サイトの「G10-Project Works」で2011年3月まで使用継続）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw&#34;&gt;当時のサイトのデザインの復刻版をご覧になれます.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;データ:f500be77c9bd4a624e3708fbf3c75850&#34;&gt;データ&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;ヒラリラーのMP, G10-Project Works&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;URI(復元サイト)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw&#34;&gt;http://teatime.rmn-web.net/restore/gpw&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;URI(復元Flash)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw/oldflash.html&#34;&gt;http://teatime.rmn-web.net/restore/gpw/oldflash.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;, 雨宮松雪(現:まつゆき)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;各ページのHTMLソースをご覧ください&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;HTML, CSS, ActionScript(Flash部)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2009年4月頃-2011年3月頃&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2009年3月24日-2009年9月21日(ヒラリラーのMP)&lt;br&gt;2009年9月21日-2011年3月11日(G10-Project Works)&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>特に大きな動きなし</title>
-            <link>http://portfolio.rmn-web.net/post/about2007/</link>
-            <pubDate>Wed, 01 Aug 2007 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/about2007/</guid>
-            <description>&lt;p&gt;2007年から2008年は、Webサイトの更新はあまり行わなくなりました。
-その頃は&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー氏のWebサイト&lt;/a&gt;に設置された&lt;a href=&#34;http://portfolio.rmn-web.net/page/1st-town&#34;&gt;TOWN&lt;/a&gt;や付属のチャットでの交流を楽しんでいたのですが、
-そこで知った一人の友人からニコニコ動画や深夜アニメなどの話を聞き、見るようになりました。&lt;/p&gt;
-
-&lt;p&gt;その周辺のコミュニティでしばらく過ごすことになるのですが、途中でPCのディスプレイが故障してしまい、およそ5ヶ月の間家族の
-PCを利用することができない状態となってしまいました。(中学校の成績が学年20位以上にならないと新しいPCを買ってもらえないという
-ルールつき、最終的に23位で許されました。) ディスプレイ故障中の間は祖父のPCを借りて遊んでいました。&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>CGIゲーム「TOWN」の設置</title>
-            <link>http://portfolio.rmn-web.net/post/1st-town/</link>
-            <pubDate>Tue, 28 Mar 2006 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/1st-town/</guid>
-            <description>
-
-&lt;p&gt;2006年（当時中2）、&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏から「&lt;a href=&#34;http://shohei.heteml.jp/brassiere/02cgi/09.html&#34;&gt;TOWN&lt;/a&gt;」というゲームシステムが設置されているWebサイトの存在を聞き、いくつかのサイトで遊びました。
-「TOWN」は、仮想的な街で暮らす系のゲーム兼SNSで、Perlが動作するWebサーバを用意できれば個人でも簡単に設置できるのですが、
-当時の私は、このプログラムをレンタルサーバ上のスペースに設置し、TOWNの管理を始めることにしました。&lt;/p&gt;
-
-&lt;p&gt;後にプログラム上の改造を施したものの、当時の技術不足により復旧不可能な障害が発生し、初代のTOWNは閉鎖に追い込まれました。&lt;/p&gt;
-
-&lt;p&gt;一方その頃、ヒラリラーが設置したTOWNは大成功し、彼が作成したWWAと共に彼のサイトは大繁盛となりました。&lt;/p&gt;
-
-&lt;p&gt;今思えば、この「TOWN」の設置が、私の中では最初のWebアプリケーションの設置であったと言えるでしょう。(初代TOWNの後, いくつかTOWNを設置していました。)&lt;/p&gt;
-
-&lt;h3 id=&#34;スクリーンショット-cc-by対象外-転載不可:66da90c99c85fc092a82249f50659656&#34;&gt;スクリーンショット（CC-BY対象外/転載不可）&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34; data-footer=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/albums/72157663837645735&#34; title=&#34;まつ吉NT・古いTOWN&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1502/24541484555_8278d56076_z.jpg&#34; width=&#34;640&#34; height=&#34;455&#34; alt=&#34;まつ吉NT・古いTOWN&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;データ:66da90c99c85fc092a82249f50659656&#34;&gt;データ&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;まつ吉ニュータウン, 新まつ吉王国, 電脳新都 (公開順)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;プログラム作者&lt;/th&gt;&lt;td&gt;TOWN原作:&lt;a href=&#34;http://shohei.heteml.jp/brassiere&#34;&gt;brassiere&lt;/a&gt;氏, 改造TOWN: &lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/&#34;&gt;たっちゃん&lt;/a&gt;氏&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;管理・改造&lt;/th&gt;&lt;td&gt;まつ吉(現:まつゆき)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;URI&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;セキュリティ上の問題があるため公開不可&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;Perl, JavaScript, HTML, CSS&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2006年頃-2008年頃&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2006年3月28日〜2009年9月21日&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;備考&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://shohei.heteml.jp/brassiere/02cgi/09.html&#34;&gt;TOWN原作&lt;/a&gt;および&lt;a href=&#34;http://www2s.biglobe.ne.jp/~tatsuji/souko/souko_index.htm&#34;&gt;たっちゃん氏による改造TOWN&lt;/a&gt;を元としてソースコードに改変を加えた。&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>最初のWWAゲーム</title>
-            <link>http://portfolio.rmn-web.net/post/1st-wwa/</link>
-            <pubDate>Sat, 09 Jul 2005 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/1st-wwa/</guid>
-            <description>&lt;p&gt;2005年（当時中1）、最初のWWAゲームを作成しました。&lt;a href=&#34;http://wwajp.com/&#34;&gt;WWA (World Wide Adventure)&lt;/a&gt; は、ロールプレイングゲーム作成に特化したゲーム作成ツールおよびゲームプレイ環境です。&lt;/p&gt;
-
-&lt;p&gt;作成したゲームは自分のWebサイトに公開しました。また、当時中学校の同期であった&lt;a href=&#34;http://hirarira.net/&#34;&gt;ヒラリラー&lt;/a&gt;氏にWWA制作技術を教えました。&lt;/p&gt;
-
-&lt;p&gt;当初、自分のWebサイトでヒラリラー氏の作品も公開していたのですが、後に彼は自身のWebサイトを立ち上げ、以降の彼の作品は彼のサイトで公開されることになりました。&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>中学受験</title>
-            <link>http://portfolio.rmn-web.net/post/admission/</link>
-            <pubDate>Fri, 01 Oct 2004 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/admission/</guid>
-            <description>&lt;p&gt;2004年（当時小6）10月、中学受験準備のためにWebサイトの管理の継続を断念しました。&lt;/p&gt;
-
-&lt;p&gt;しかし、親に隠れてPCでサイト管理をしたり遊んでいたりしたため学業に身が入らず、受験勉強に大きな影響が出ました。&lt;/p&gt;
-
-&lt;p&gt;受験の結果、中高一貫校に進むことになりました。&lt;/p&gt;
 </description>
           </item>
         

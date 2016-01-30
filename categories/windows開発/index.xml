@@ -77,6 +77,34 @@ Windowsアプリケーションをプロセス処理によって起動し、起�
       
         
           <item>
+            <title>大学のサークルでWindowsアプリケーションのランチャを作成</title>
+            <link>http://portfolio.rmn-web.net/post/launcher2012/</link>
+            <pubDate>Fri, 23 Nov 2012 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/launcher2012/</guid>
+            <description>
+
+&lt;p&gt;2012年の大学学園祭では、部員のゲームを起動するプログラムを作成しました。
+Windowsアプリケーションをプロセス処理によって起動し、起動中ランチャは最小化されるようになっています。&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:56830a9a3e5e7647a2d9564f7de5cf63&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Only One Launcher&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;非公開&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2012 Express)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年8月-2012年12月&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
             <title>大学のサークルでRPGエンジンつくった</title>
             <link>http://portfolio.rmn-web.net/post/cpprpg/</link>
             <pubDate>Fri, 18 Nov 2011 00:00:00 +0900</pubDate>
