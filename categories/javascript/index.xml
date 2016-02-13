@@ -125,6 +125,8 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 &lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/24371752593/in/dateposted-public/&#34; title=&#34;2014-08-12 22.02.44&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1568/24371752593_fd5948c146_z.jpg&#34; width=&#34;240&#34; height=&#34;320&#34; alt=&#34;2014-08-12 22.02.44&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
           </item>
         
@@ -138,8 +140,12 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
             <pubDate>Thu, 22 Nov 2012 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/pointp/</guid>
-            <description>&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
-「Box2DJS」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34; href=&#34;https://www.flickr.com/photos/139621465@N08/albums/72157664566429856&#34; title=&#34;Point P&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1534/24880472082_d6b6d35b62.jpg&#34; width=&#34;500&#34; height=&#34;375&#34; alt=&#34;Point P&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
+「&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+
+&lt;p&gt;また、ゲームをプレイしながらプレゼンテーションを行う新しい取り組みをしました。&lt;/p&gt;
 
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;線分ABを点Pがノリノリで動くゲーム&lt;/td&gt;&lt;/tr&gt;
@@ -148,7 +154,7 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 &lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;, &lt;a href=&#34;http://prototypejs.org/&#34;&gt;Prototype.js&lt;/a&gt;, &lt;a href=&#34;https://github.com/arv/explorercanvas&#34;&gt;ExplorerCanvas&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年11月頃&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 </description>
           </item>

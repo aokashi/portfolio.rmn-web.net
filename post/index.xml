@@ -149,6 +149,8 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 &lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/24371752593/in/dateposted-public/&#34; title=&#34;2014-08-12 22.02.44&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1568/24371752593_fd5948c146_z.jpg&#34; width=&#34;240&#34; height=&#34;320&#34; alt=&#34;2014-08-12 22.02.44&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
           </item>
         
@@ -204,34 +206,6 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 &lt;p&gt;2012年の大学学園祭では、部員のゲームを起動するプログラムを作成しました。
 Windowsアプリケーションをプロセス処理によって起動し、起動中ランチャは最小化されるようになっています。&lt;/p&gt;
 
-&lt;h3 id=&#34;データ:59797d38e151dfd693eb6e5d7c77e100&#34;&gt;データ&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;Only One Launcher&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;rmn.（現: まつゆき）&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;非公開&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;C++ (Microsoft Visual C++ 2012 Express)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://homepage2.nifty.com/natupaji/DxLib/&#34;&gt;DXライブラリ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年8月-2012年12月&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title>大学のサークルでWindowsアプリケーションのランチャを作成</title>
-            <link>http://portfolio.rmn-web.net/post/launcher2012/</link>
-            <pubDate>Fri, 23 Nov 2012 00:00:00 +0900</pubDate>
-            
-            <guid>http://portfolio.rmn-web.net/post/launcher2012/</guid>
-            <description>
-
-&lt;p&gt;2012年の大学学園祭では、部員のゲームを起動するプログラムを作成しました。
-Windowsアプリケーションをプロセス処理によって起動し、起動中ランチャは最小化されるようになっています。&lt;/p&gt;
-
 &lt;h3 id=&#34;データ:56830a9a3e5e7647a2d9564f7de5cf63&#34;&gt;データ&lt;/h3&gt;
 
 &lt;table&gt;
@@ -255,8 +229,12 @@ Windowsアプリケーションをプロセス処理によって起動し、起�
             <pubDate>Thu, 22 Nov 2012 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/pointp/</guid>
-            <description>&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
-「Box2DJS」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34; href=&#34;https://www.flickr.com/photos/139621465@N08/albums/72157664566429856&#34; title=&#34;Point P&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1534/24880472082_d6b6d35b62.jpg&#34; width=&#34;500&#34; height=&#34;375&#34; alt=&#34;Point P&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;大学の授業向けにアクションゲームを作成しました。物理演算を行うJavaScriptライブラリの
+「&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;」を用いました。HTML Canvas上で動作します。&lt;/p&gt;
+
+&lt;p&gt;また、ゲームをプレイしながらプレゼンテーションを行う新しい取り組みをしました。&lt;/p&gt;
 
 &lt;table&gt;
 &lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;線分ABを点Pがノリノリで動くゲーム&lt;/td&gt;&lt;/tr&gt;
@@ -265,7 +243,7 @@ Windowsアプリケーションをプロセス処理によって起動し、起�
 &lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;JavaScript, HTML&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;使用ライブラリ&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://box2d-js.sourceforge.net/&#34;&gt;Box2DJS&lt;/a&gt;, &lt;a href=&#34;http://prototypejs.org/&#34;&gt;Prototype.js&lt;/a&gt;, &lt;a href=&#34;https://github.com/arv/explorercanvas&#34;&gt;ExplorerCanvas&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;ライセンス&lt;/th&gt;&lt;td&gt;Apache License 2.0&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2014年6月-2014年8月&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2012年11月頃&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 </description>
           </item>
@@ -406,7 +384,11 @@ Windowsアプリケーションをプロセス処理によって起動し、起�
             <pubDate>Thu, 10 Mar 2011 00:00:00 +0900</pubDate>
             
             <guid>http://portfolio.rmn-web.net/post/grad-hs/</guid>
-            <description>&lt;p&gt;2010年から2011年、高校の授業（卒業研究: 情報特論）の一環として卒業レポートを書きました。&lt;/p&gt;
+            <description>&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/24371128973/in/dateposted-public/&#34; title=&#34;2016-02-13 22.14.32&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1619/24371128973_f5dd0a44bf.jpg&#34; width=&#34;500&#34; height=&#34;271&#34; alt=&#34;2016-02-13 22.14.32&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;※上記画像, 権利関係の都合上CC-BY対象外, &lt;strong&gt;転載不可&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2010年から2011年、高校の授業（卒業研究: 情報特論）の一環として卒業レポートを書きました。&lt;/p&gt;
 
 &lt;p&gt;内容としては、TOWN、特に&lt;a href=&#34;http://portfolio.rmn-web.net/post/eca2010&#34;&gt;ECA Town&lt;/a&gt;で身につけたWebアプリケーションの話から話を広げ、
 Web関連の技術を俯瞰してみようというものでした。具体的には、&lt;/p&gt;
@@ -531,6 +513,10 @@ WWAから送られてきたステータスをTOWNで受信するプログラム�
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2009年12月頃-2011年8月頃&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2010年5月4日-2010年7月16日(αテスト)&lt;br&gt;2010年7月16日-2012年5月31日(βテスト)&lt;br&gt;2012年6月18日-2014年2月4日(運営者変更後)&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;h3 id=&#34;スクリーンショットギャラリー-cc-by対象外-転載不可:48231f3761bb34c37f1b161a7570b636&#34;&gt;スクリーンショットギャラリー (CC-BY対象外/転載不可)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34; data-footer=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/albums/72157662281739634&#34; title=&#34;ECA Town&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1537/24630391269_9f7bda88db.jpg&#34; width=&#34;500&#34; height=&#34;500&#34; alt=&#34;ECA Town&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
           </item>
         
@@ -551,6 +537,49 @@ WWAから送られてきたステータスをTOWNで受信するプログラム�
 構造を正式に学んだのは中学3年の技術の授業(2006-2007年)ですが、自分でゼロからコードを書くことはそれまでほとんどありませんでした。&lt;/p&gt;
 
 &lt;p&gt;これで、ようやくプログラミングの基礎が出揃ったことになります。(まだこの頃は &lt;code&gt;for&lt;/code&gt; 文の挙動の理解が少し怪しかったと記憶しております。）&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>友人のサイト「ヒラリラーのMP」の再構築と代理更新</title>
+            <link>http://portfolio.rmn-web.net/post/mp2009/</link>
+            <pubDate>Tue, 24 Mar 2009 00:00:00 +0900</pubDate>
+            
+            <guid>http://portfolio.rmn-web.net/post/mp2009/</guid>
+            <description>
+
+&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/139621465@N08/24334848009/in/dateposted-public/&#34; title=&#34;ヒラリラーのMP リニューアル&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1716/24334848009_18db9248eb.jpg&#34; width=&#34;500&#34; height=&#34;330&#34; alt=&#34;ヒラリラーのMP リニューアル&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;※上記画像, 権利関係の都合上CC-BY対象外, &lt;strong&gt;転載不可&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2009年3月、中学以来からの付き合いの友人の&lt;a href=&#34;https://twitter.com/hirarira617&#34;&gt;ヒラリラー&lt;/a&gt; 氏のWebサイト「&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラーのMP&lt;/a&gt;」が更新困難となったため、
+管理業務を一時的に引き受けることになりました。管理開始時に、サイトの大幅なリニューアルを行ったため、副産物として、HTML/CSSの体系的な知識が身につきました。（&lt;code&gt;table&lt;/code&gt; 要素
+でレイアウトをする残念っぷりでしたが）&lt;/p&gt;
+
+&lt;p&gt;また、このリニューアルでは、&lt;a href=&#34;http://parafla.coaworks.jp/&#34;&gt;Parafla!&lt;/a&gt;というFlash作成ツールを用いて、ナビゲーションと&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw/oldflash.html&#34;&gt;画面中央部に流すムービー&lt;/a&gt;を作成しました。&lt;/p&gt;
+
+&lt;p&gt;なお、この時期に個人用のノートパソコンを購入し、PC使用可能時間が大幅に伸びたため、代理更新には相当力が入ったのですが、一方で、学業成績の低下などの問題も発生しました。&lt;/p&gt;
+
+&lt;p&gt;しかし、ヒラリラーが再び更新可能となった2009年10月には代理更新は終了することとなりました。（ヒラリラーのMPリニューアルで使用したレイアウトは、引き続き自サイトの「G10-Project Works」で2011年3月まで使用継続）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw&#34;&gt;当時のサイトのデザインの復刻版をご覧になれます.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;データ:f500be77c9bd4a624e3708fbf3c75850&#34;&gt;データ&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;ヒラリラーのMP, G10-Project Works&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;URI(復元サイト)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw&#34;&gt;http://teatime.rmn-web.net/restore/gpw&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;URI(復元Flash)&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://teatime.rmn-web.net/restore/gpw/oldflash.html&#34;&gt;http://teatime.rmn-web.net/restore/gpw/oldflash.html&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;作者&lt;/th&gt;&lt;td&gt;&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;, 雨宮松雪(現:まつゆき)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;ソースコード&lt;/th&gt;&lt;td&gt;各ページのHTMLソースをご覧ください&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発言語&lt;/th&gt;&lt;td&gt;HTML, CSS, ActionScript(Flash部)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2009年4月頃-2011年3月頃&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;公開期間&lt;/th&gt;&lt;td&gt;2009年3月24日-2009年9月21日(ヒラリラーのMP)&lt;br&gt;2009年9月21日-2011年3月11日(G10-Project Works)&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
           </item>
         
