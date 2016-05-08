@@ -29,7 +29,7 @@
 &lt;li&gt;WWA Phoenix(従来のWWAのHTMLタグをWWA Wingのタグに置換)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;wwa-wing:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Wing&lt;/h3&gt;
+&lt;h3 id=&#34;wwa-wing&#34;&gt;WWA Wing&lt;/h3&gt;
 
 &lt;p&gt;Javaアプレットで動作するロールプレイングゲーム実行環境&lt;a href=&#34;http://wwajp.com/&#34;&gt;World Wide Adventure&lt;/a&gt;のJavaScript 版の実行環境です。
 近年、非HTTPSなWebサイトでJavaアプレットを実行するには、実行を許可するサイト一覧である「例外リスト」への追加が必要になり、WWA本来の「サイトにアクセスしてすぐ遊べる」という特徴が失われたために開発を開始しました。&lt;/p&gt;
@@ -52,7 +52,7 @@
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2015年2月3日〜現在&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;wwa-loader:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Loader&lt;/h3&gt;
+&lt;h3 id=&#34;wwa-loader&#34;&gt;WWA Loader&lt;/h3&gt;
 
 &lt;p&gt;WWAのマップデータ(バイナリ)を解析するJavaScriptプログラムです。
 WWA Wingで必要になるため作成を開始しました。 基本的にWeb Workerとして呼び出すことを前提としていますが、
@@ -70,7 +70,7 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 &lt;tr&gt;&lt;th&gt;開発期間&lt;/th&gt;&lt;td&gt;2013年4月〜現在&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;wwa-phoenix:0d1ec689a30e9240de2a52c9c727a586&#34;&gt;WWA Phoenix&lt;/h3&gt;
+&lt;h3 id=&#34;wwa-phoenix&#34;&gt;WWA Phoenix&lt;/h3&gt;
 
 &lt;p&gt;WWA Wingは、WWA設置サイトの管理者が対応するまで、その効力を発さないという欠点があります。
 ですので、既存のWWAを遊ぼうとした時には相変わらずJava版となってしまいます。
@@ -106,7 +106,7 @@ WWA Wingで必要になるため作成を開始しました。 基本的にWeb W
 
 &lt;p&gt;友人が担当していた戦闘シーン実行プログラミングと組み、2011年度の学園祭で展示されました。&lt;/p&gt;
 
-&lt;h3 id=&#34;データ:4196de38f1c519bb93c3e0af30edc6d4&#34;&gt;データ&lt;/h3&gt;
+&lt;h3 id=&#34;データ&#34;&gt;データ&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;タイトル&lt;/th&gt;&lt;td&gt;シンプルRPG&lt;/td&gt;&lt;/tr&gt;
